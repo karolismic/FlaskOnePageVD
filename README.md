@@ -32,9 +32,21 @@ app = Flask(__name__)`
 def home():
   return render_template('home.html')
 if __name__ == '__main__':
-  app.run()`
+  app.run(debug=True)`
 
-We are importing **render_template** function provided by the Flask and then rendering our HTML template in the home route.
+Line 1:** Here we are importing the Flask module and creating a Flask web server from the Flask module. We are importing **render_template** function provided by the Flask and then rendering our HTML template in the home route.
+
+**Line 3: __name__ means this current file**. In this case, it will be main.py. This current file will represent my web application.
+
+We are creating an instance of the Flask class and calling it app. Here we are creating a new web application.
+
+**Line 6–7**: When the user goes to my website and they go to the default page (nothing after the slash), then the function below will get activated.
+
+**Line 8:** When you run your Python script, Python assigns the name “__main__” to the script when executed.
+
+If we import another script, the **if statement will prevent other scripts from running.** When we run main.py, it will change its name to __main__ and only then will that if statement activate.
+
+**Line 9:** This will run the application. Having `debug=True` allows possible Python errors to appear on the web page. This will help us trace the errors.
 
 ### Step 3
 
