@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![Grayscale Preview](https://getspace.cloud/cloud/s/qbwAYmwLwZ2dSKK)]![vividmountains](C:\Users\Vizija 360\Desktop\PYTHON\vividmountains.png)
+[![Grayscale Preview](https://getspace.cloud/cloud/s/qbwAYmwLwZ2dSKK)]
 
 ## Status
 
