@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![Grayscale Preview](https://getspace.cloud/cloud/s/qbwAYmwLwZ2dSKK)]
+[(https://getspace.cloud/cloud/s/qbwAYmwLwZ2dSKK)]
 
 ## Status
 
