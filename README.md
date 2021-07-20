@@ -13,12 +13,7 @@
 
 ## Download and Installation
 
-To begin using this template, choose one of the following options to get started:
-
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/grayscale/)
-- Install using npm: `npm i startbootstrap-grayscale`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-grayscale.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-grayscale)
+To begin using this template just download the files locally.
 
 ## Usage
 
@@ -30,14 +25,14 @@ First, create a new folder in the project directory called **templates**. Create
 
 Now create a new file naming it **"main.py"** or any other name but make sure the file ending is .py in the different folder than templates, open it and add the following code:
 
-from flask import Flask, render_template
-app = Flask(__name__)
+`from flask import Flask, render_template
+app = Flask(__name__)`
 
-@app.route('/')
+`@app.route('/')
 def home():
   return render_template('home.html')
 if __name__ == '__main__':
-  app.run()
+  app.run()`
 
 We are importing **render_template** function provided by the Flask and then rendering our HTML template in the home route.
 
