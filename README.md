@@ -2,7 +2,7 @@
 
 ## Preview
 
-[(https://getspace.cloud/cloud/s/qbwAYmwLwZ2dSKK/preview)]
+![](https://getspace.cloud/cloud/s/qbwAYmwLwZ2dSKK/preview)
 
 ## Status
 
